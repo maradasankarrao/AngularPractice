@@ -9,7 +9,7 @@ export class AppComponent {
 fruitname:string=""
 fruitprice:number=0
 fruite=[]
-additem(){
+additems(){
   this.fruite.push(this.fruitname)
 
 }
