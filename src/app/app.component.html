@@ -1,0 +1,7 @@
+<h1>Displaying Fruits</h1>
+Enter Fruit Name: <input type="text" [(ngModel)]="Fruitname">
+Enter Price: <input type="number" [(ngModel)]="Fruitprice">
+<button (click)="additem()">Add Item</button>
+<ul>
+  <li *ngFor="let f of fruite">{{f}}</li>
+</ul>
